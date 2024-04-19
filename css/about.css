@@ -1,0 +1,39 @@
+.about{
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(234,242 ,253);
+    padding: 50px 50px;
+}
+.about__container{
+    width: 90%;
+    margin: auto;
+    padding-right: 20px;
+}
+.about__title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+}
+.about__paragraph{
+    margin: auto;
+    font-size: 18px;
+    text-align:justify-all;
+    line-height: 1.5;
+   
+}
+.about__container img{
+    height: 50px;
+    display: block;
+   
+}
+@media(min-width:768px){
+    .about{
+        padding: 50px;
+    }
+}
+@media(min-width:1024px){
+    .about{
+        padding: 50px 50px;
+    }
+}
